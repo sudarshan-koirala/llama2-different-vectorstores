@@ -1,0 +1,15 @@
+langchain
+chainlit
+python-dotenv
+chromadb
+faiss-cpu
+torch
+transformers
+sentence_transformers
+unstructured
+pypdf
+ctransformers
+Markdown
+pinecone-client
+tiktoken
+openai
