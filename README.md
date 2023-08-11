@@ -26,6 +26,11 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    ```
    HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token
    ```
+
+   OPTIONAL: If you want to test with openai models. Get the OpenAI API key from this [URL](https://platform.openai.com/account/api-keys). You need to create an account if you haven't already.
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   ```
    
 3. Create a virtualenv and activate it
    ```
@@ -53,3 +58,7 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    ```
 
 **Repeat step 5 and 6 for different vectorstores.** Happy learning 😎
+
+---
+## Disclaimer
+This is test project and is presented in my youtube video to learn new stuffs using the openly available resources (models, libraries, framework,etc). It is not meant to be used in production as it's not production ready. You can modify the code and use for your usecases ✌️
