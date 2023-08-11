@@ -8,7 +8,7 @@ from langchain.llms import CTransformers
 from langchain.prompts import PromptTemplate
 from langchain.vectorstores import Chroma
 
-DB_FAISS_PATH = "./../vectorstore/db_chroma_openai"
+DB_CHROMA_PATH = "./../vectorstore/db_chroma_openai"
 
 from dotenv import load_dotenv
 
@@ -72,7 +72,7 @@ llm = ChatOpenAI(model="gpt-3.5-turbo")
 
 
 def create_retrieval_qa_bot(
-    model_name="text-embedding-ada-002", persist_dir=DB_FAISS_PATH
+    model_name="text-embedding-ada-002", persist_dir=DB_CHROMA_PATH
 ):
     """
     This function creates a retrieval-based question-answering bot.
