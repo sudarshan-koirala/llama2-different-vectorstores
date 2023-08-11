@@ -37,14 +37,14 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    python3 -m venv .venv && source .venv/bin/activate
    ```
 
-4. Run the following command in the terminal to install necessary python packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
    If you have python 3.11, then the above command is fine. But, if you have python version less than 3.11. Using conda is easier. First make sure that you have conda installed. Then run the following command.
    ```
    conda create -n .venv python=3.11 -y && source activate .venv
+   ```
+
+4. Run the following command in the terminal to install necessary python packages:
+   ```
+   pip install -r requirements.txt
    ```
 
 5. Go to `ingest` folder and run the following command in your terminal to create the embeddings and store it locally:
