@@ -27,6 +27,12 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token
    ```
 
+   Get the Pinecone API key and Env variable name from this [URL](https://platform.openai.com/account/api-keys). You need to create an account if you haven't already.
+   ```
+   PINECONE_ENV=*****
+   PINECONE_API_KEY=*****
+   ```
+
    OPTIONAL: If you want to test with openai models. Get the OpenAI API key from this [URL](https://platform.openai.com/account/api-keys). You need to create an account if you haven't already.
    ```
    OPENAI_API_KEY=your_openai_api_key
@@ -52,6 +58,7 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    mkdir model && cd model
    wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin
    ```
+
 
 5. Go to `ingest` folder and run the following command in your terminal to create the embeddings and store it locally:
    ```
