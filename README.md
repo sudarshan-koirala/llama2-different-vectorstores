@@ -47,6 +47,12 @@ You must have Python 3.11 or later installed. Earlier versions of python may not
    pip install -r requirements.txt
    ```
 
+5. Create a model folder in the root directory and download the model inside the folder.
+   ```
+   mkdir model && cd model
+   wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin
+   ```
+
 5. Go to `ingest` folder and run the following command in your terminal to create the embeddings and store it locally:
    ```
    python3 run ingest_chroma.py
